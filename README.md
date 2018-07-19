@@ -20,7 +20,7 @@ Curate the web by:
 - It is quite common in various applications that we have to fill in say x number of words and in many cases there's no word counting software not available on such applications. So I decided to make an extension where in I could paste my text and know the no.of words.
 
 ### :arrow_heading_down: Download and Usage!
-You may want to clone this repository or download as a zip .
+You may want to clone this repository or [download](https://github.com/sakethramanujam/WC-Chrome-Extension/tree/6ec648f2c9d2c3173ccd4df99851352218f609f3) as a zip .
 
 :beginner: To add this extension to your set of extensions, 
  - Unpack the extension into a location of your choice.
