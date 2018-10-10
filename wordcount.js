@@ -16,7 +16,7 @@
    }
     
     document.getElementById("space").innerHTML = wordcount;
-    document.getElementById("chars").innerHTML = val.length-wordcount;
+    document.getElementById("chars").innerHTML = val.length-wordcount-sentcount;
     document.getElementById("words").innerHTML = wordcount+1;
     document.getElementById("sentences").innerHTML = sentcount;
     console.log(count+1);
