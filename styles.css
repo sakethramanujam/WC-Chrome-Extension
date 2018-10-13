@@ -2,9 +2,15 @@
     margin-top:25px;
 }
 .button-area{
-    padding: 5%;
+    padding: 5% 0;
 }
 input {
   height: 50px;
-  width: 100px;
+  width: 600px;
+}
+body {
+    background-color: rgb(226, 169, 63);
+}
+p {
+    margin: 5% 0;
 }
