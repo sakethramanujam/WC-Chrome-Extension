@@ -1,6 +1,10 @@
 const inputArea = document.getElementById('inputArea');
+const spaceElem = document.getElementById('space');
+const charsElem = document.getElementById('chars');
+const wordsElem = document.getElementById('words');
+const sentencesElem = document.getElementById('sentences');
 
-inputArea.addEventListener('keyup', (event) => {
+inputArea.addEventListener('keyup', () => {
     console.log('Entered function');
     
     const val = inputArea.value;
@@ -23,8 +27,8 @@ inputArea.addEventListener('keyup', (event) => {
         }
    }
     
-    document.getElementById('space').innerHTML = spacecount;
-    document.getElementById('chars').innerHTML = val.length - spacecount - sentcount;
-    document.getElementById('words').innerHTML = wordcount + 1;
-    document.getElementById('sentences').innerHTML = sentcount;
+    spaceElem.innerHTML = spacecount;
+    charsElem.innerHTML = val.length - spacecount - sentcount;
+    wordsElem.innerHTML = wordcount + 1;
+    sentencesElem.innerHTML = sentcount;
 });
