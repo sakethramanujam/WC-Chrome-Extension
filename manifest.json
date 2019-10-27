@@ -1,6 +1,6 @@
 {
     "name": "Words",
-    "description": "A simple java script wordcounter for text placed within",
+    "description": "A simple JavaScript wordcounter for text placed within",
     "version": "1.0",
     "manifest_version": 2,
     
