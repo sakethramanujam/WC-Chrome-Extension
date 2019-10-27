@@ -1,31 +1,30 @@
-var mouse = document.getElementById("func");
+const inputArea = document.getElementById('inputArea');
 
-mouse.onclick = function() {
-    console.log("Entered funtion");
+inputArea.addEventListener('keyup', (event) => {
+    console.log('Entered function');
     
-    var val = document.getElementById("spaces").value;
-    var wordcount = 0;
-    var spacecount = 0;
-    var sentcount = 0;
+    const val = inputArea.value;
+    let wordcount = 0;
+    let spacecount = 0;
+    let sentcount = 0;
     
-    for (var i = 0; i < val.length; i++) {
-        console.log("Entered for");
+    for (let i = 0; i < val.length; i++) {
+        console.log('Entered for');
         
-        if (val[i] == " ") {
-            if (val[i + 1] != " ") {
+        if (val[i] == ' ') {
+            if (val[i + 1] != ' ') {
                 wordcount++;
             }
             spacecount++;
         }
         
-        if (val[i] == ".") {
+        if (val[i] == '.') {
             sentcount++;
         }
    }
     
-    document.getElementById("space").innerHTML = spacecount;
-    document.getElementById("chars").innerHTML = val.length - spacecount - sentcount;
-    document.getElementById("words").innerHTML = wordcount + 1;
-    document.getElementById("sentences").innerHTML = sentcount;
-    // console.log(count+1); commented this out because error shows up in the console
-};
+    document.getElementById('space').innerHTML = spacecount;
+    document.getElementById('chars').innerHTML = val.length - spacecount - sentcount;
+    document.getElementById('words').innerHTML = wordcount + 1;
+    document.getElementById('sentences').innerHTML = sentcount;
+});
