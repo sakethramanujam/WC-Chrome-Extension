@@ -1,12 +1,12 @@
 var mouse = document.getElementById("func");
-    
+
 mouse.onclick = function() {
     console.log("Entered funtion");
     
     var val = document.getElementById("spaces").value;
-    var wordcount =0;
+    var wordcount = 0;
     var spacecount = 0;
-    var sentcount =0;
+    var sentcount = 0;
     
     for (var i = 0; i < val.length; i++) {
         console.log("Entered for");
