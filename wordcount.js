@@ -29,6 +29,6 @@ inputArea.addEventListener('keyup', () => {
     
     spaceElem.textContent = spacecount;
     charsElem.textContent = val.length - spacecount - sentcount;
-    wordsElem.textContent = wordcount + 1;
+    wordsElem.textContent = (val.length === 0) ? 0 : wordcount + 1;
     sentencesElem.textContent = sentcount;
 });
