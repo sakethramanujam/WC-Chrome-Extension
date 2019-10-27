@@ -27,8 +27,8 @@ inputArea.addEventListener('keyup', () => {
         }
    }
     
-    spaceElem.innerHTML = spacecount;
-    charsElem.innerHTML = val.length - spacecount - sentcount;
-    wordsElem.innerHTML = wordcount + 1;
-    sentencesElem.innerHTML = sentcount;
+    spaceElem.textContent = spacecount;
+    charsElem.textContent = val.length - spacecount - sentcount;
+    wordsElem.textContent = wordcount + 1;
+    sentencesElem.textContent = sentcount;
 });
