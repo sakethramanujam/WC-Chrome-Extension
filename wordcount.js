@@ -11,14 +11,14 @@ inputArea.addEventListener('keyup', (event) => {
     for (let i = 0; i < val.length; i++) {
         console.log('Entered for');
         
-        if (val[i] == ' ') {
-            if (val[i + 1] != ' ') {
+        if (val[i] === ' ') {
+            if (val[i + 1] !== ' ') {
                 wordcount++;
             }
             spacecount++;
         }
         
-        if (val[i] == '.') {
+        if (val[i] === '.') {
             sentcount++;
         }
    }
