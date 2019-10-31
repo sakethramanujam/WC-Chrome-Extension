@@ -19,7 +19,7 @@ You may want to clone this repository or [download](https://github.com/sakethram
 - Goto **More Tools** Option just below **Find** under the menu on your right side of the Chrome Browser and select **Extensions**
 - Choose **Load Unpacked** and select the unpacked folder on your computer!
 
-    ![image](extension.gif)
+    ![image](./media/extension.gif)
     :sparkles: You've now added the WC-Chrome-Extension into your set of extensions!
  
 #### :clock1: Future Work
